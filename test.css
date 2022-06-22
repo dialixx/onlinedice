@@ -1,0 +1,29 @@
+html {
+	background-color: #111111;
+}
+
+div {
+	background-color: #999999;
+	margin: 30px;
+	padding: 10px;
+}
+
+marquee {
+	background-color: #666666;
+}
+
+#output {
+	background-color: #000000;
+	color: #00aa00;
+	margin: 10px;
+	animation-name: terminal;
+	animation-duration: 66ms;
+	animation-iteration-count: infinite;
+	padding-left: 10px;
+	border: #222222 3px solid;
+}
+
+@keyframes terminal {
+	0%   {color: #009900}
+	100% {color: #00ee00}
+}
