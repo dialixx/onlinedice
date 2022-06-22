@@ -54,11 +54,23 @@ function statroll() {
 	var stat5 = (Math.floor(Math.random() * 6) + 1) + (Math.floor(Math.random() * 6) + 1) + (Math.floor(Math.random() * 6) + 1);
 	var stat6 = (Math.floor(Math.random() * 6) + 1) + (Math.floor(Math.random() * 6) + 1) + (Math.floor(Math.random() * 6) + 1);
 	
-	document.getElementById("output2").innerHTML += "> your stats: " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6 + "<br>";
+	document.getElementById("output2").innerHTML += "> your stats (3d6 * 6): " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6 + "<br>";
 }
 
 function statroll20() {
 	document.getElementById("output2").innerHTML += "> lol just roll 6 d20 or make them up<br>";
+	document.getElementById("d20").style = "";
+}
+
+function statroll20real() {
+	var stat1 = Math.floor(Math.random() * 20) + 1;
+	var stat2 = Math.floor(Math.random() * 20) + 1;
+	var stat3 = Math.floor(Math.random() * 20) + 1;
+	var stat4 = Math.floor(Math.random() * 20) + 1;
+	var stat5 = Math.floor(Math.random() * 20) + 1;
+	var stat6 = Math.floor(Math.random() * 20) + 1;
+	
+	document.getElementById("output2").innerHTML += "> ok fine (d20 * 6): " + stat1 + " " + stat2 + " " + stat3 + " " + stat4 + " " + stat5 + " " + stat6 + "<br>";
 }
 
 function customroll() {
