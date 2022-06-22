@@ -12,6 +12,10 @@ marquee {
 	background-color: #666666;
 }
 
+#6d20 {
+	visibility: hidden;
+}
+
 #output {
 	background-color: #000000;
 	color: #00aa00;
