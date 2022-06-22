@@ -12,8 +12,8 @@ marquee {
 	background-color: #666666;
 }
 
-#6d20 {
-	visibility: hidden;
+#d20 {
+	display: none;
 }
 
 #output {
