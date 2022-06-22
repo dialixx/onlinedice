@@ -58,7 +58,7 @@ function statroll() {
 }
 
 function statroll20() {
-	document.getElementById("output2").innerHTML += "> lol just roll 6 d20 or make them up, lazy ass<br>";
+	document.getElementById("output2").innerHTML += "> lol just roll 6 d20 or make them up<br>";
 }
 
 function customroll() {
